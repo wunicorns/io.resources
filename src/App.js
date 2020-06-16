@@ -10,7 +10,6 @@ import { Link } from '@material-ui/core';
 function App() {
   const active = {color: "red"};
 
-   
   return (
     <BrowserRouter>
       <nav>
