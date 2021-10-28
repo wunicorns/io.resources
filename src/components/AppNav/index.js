@@ -138,7 +138,7 @@ function AppNav () {
                 <MenuIcon />
             </IconButton>
             <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-                Dashboard
+              Contents
             </Typography>
             <IconButton color="inherit">
                 <Badge badgeContent={4} color="secondary">
@@ -169,9 +169,9 @@ function AppNav () {
                   <ListItemText inset primary="Home" />
               </ListItem>
             </NavLink>
-            <NavLink activeStyle={active} to="/dashboard">
+            <NavLink activeStyle={active} to="/contents">
               <ListItem button>
-                  <ListItemText inset primary="Dashboard" />
+                  <ListItemText inset primary="Contents" />
               </ListItem>
             </NavLink>
         </List>

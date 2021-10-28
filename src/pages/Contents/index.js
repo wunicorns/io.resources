@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function Dashboard() {
+function Contents() {
   
   const classes = useStyles();
     
@@ -81,4 +81,4 @@ function Dashboard() {
   );
 }
 
-export default withRouter(Dashboard);
+export default withRouter(Contents);
